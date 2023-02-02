@@ -1,10 +1,10 @@
-import moment from "moment";
 import React, { useState } from "react";
 import styled from "styled-components";
 import { ReactComponent as IconPlus } from "../assets/plus-icon.svg";
 import Form from "./Form";
 
 const Task = ({ task, saveTodo }) => {
+  console.log(task);
   console.log(task.id);
   const [showForm, setShowForm] = useState(false);
 
